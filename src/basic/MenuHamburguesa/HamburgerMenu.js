@@ -44,7 +44,7 @@ const HamburgerMenu = () => {
           )}
           {!userName && currentPath === "/" && (
             <li>
-              <a href="/CreateAccount">Crear cuenta</a>
+              <a href="CreateAcconunt">Crear cuenta</a>
             </li>
           )}
         </ul>

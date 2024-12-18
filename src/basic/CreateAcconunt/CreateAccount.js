@@ -122,9 +122,11 @@ export const CreateAccount = () => {
         />
         <p>{error}</p>
         <p>{success}</p>
-        <button onClick={onRegister} className="button">
-          Registrarse
-        </button>
+        <div style={{ paddingTop: "25px" }}>
+          <button onClick={onRegister} className="button">
+            Registrarse
+          </button>
+        </div>
       </div>
     </div>
   );
